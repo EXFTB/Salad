@@ -711,7 +711,7 @@ function library.new(name)
 					Fill.LayoutOrder = 3
 					Fill.Size = UDim2.new(0, 0, 0, 4)
 
-					UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(32, 157, 53)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 162, 44))}
+					UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(73, 107, 193)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 102, 194))}
 					UIGradient.Parent = Fill
 
 					ValueSlider.Name = "ValueSlider"
