@@ -224,7 +224,7 @@ function library.new(name)
 		Window.Parent = TabHolder
 		Window.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 		Window.BackgroundTransparency = 0.500
-		Window.BorderColor3 = Color3.fromRGB(33, 83, 30)
+		Window.BorderColor3 = Color3.fromRGB(73, 107, 193)
 		Window.Position = UDim2.new(0.00659340667, 0, 0.296875, 0)
 		Window.Size = UDim2.new(0, 108, 0, 20)
 		Window.ZIndex = 2
@@ -314,7 +314,7 @@ function library.new(name)
 			TabButton.TextSize = 14.000
 
 			Frame.Parent = TabButton
-			Frame.BackgroundColor3 = Color3.fromRGB(49, 218, 46)
+			Frame.BackgroundColor3 = Color3.fromRGB(73, 107, 193)
 			Frame.BorderSizePixel = 0
 			Frame.Size = UDim2.new(0.0350000001, 0, 0, 20)
 			Frame.Visible = false
