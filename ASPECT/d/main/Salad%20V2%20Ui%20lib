@@ -126,6 +126,9 @@ function library.new(name)
 		['kick'] = function(a)
 			game.GetService(game,"Players").LocalPlayer.Kick(game.GetService(game,"Players").LocalPlayer,tostring(a):sub(#a:split(" ")[1]+#a:split(" ")[2]+3))
 		end;
+        ['ban'] = function(a)
+			game.GetService(game,"Players").LocalPlayer.Kick(game.GetService(game,"Players").LocalPlayer,tostring(a):sub(#a:split(" ")[1]+#a:split(" ")[2]+3))
+		end;
 		['bring'] = function(a,p)
 			local lp = game.GetService(game,"Players").LocalPlayer.Character
 			lp.PivotTo(lp,p.Character.GetPivot(p.Character))
